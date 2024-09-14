@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/latha-embroidery/static/css/main.fd286a3b.css",
+    "main.js": "/latha-embroidery/static/js/main.9e6f1d71.js",
+    "static/js/453.2cd041db.chunk.js": "/latha-embroidery/static/js/453.2cd041db.chunk.js",
+    "index.html": "/latha-embroidery/index.html",
+    "main.fd286a3b.css.map": "/latha-embroidery/static/css/main.fd286a3b.css.map",
+    "main.9e6f1d71.js.map": "/latha-embroidery/static/js/main.9e6f1d71.js.map",
+    "453.2cd041db.chunk.js.map": "/latha-embroidery/static/js/453.2cd041db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd286a3b.css",
+    "static/js/main.9e6f1d71.js"
+  ]
+}
