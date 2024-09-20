@@ -1,0 +1,74 @@
+.sidebar-cart {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  
+  .close-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .cart-items-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+  }
+  
+  .cart-item-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .remove-btn {
+    background-color: royalblue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-to-admin-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .send-to-admin-btn:hover {
+    background-color: darkorange;
+  }
+  

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Material 1",
+    "quantity": "10 meters",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 2,
+    "name": "Material 2",
+    "quantity": "20 meters",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },{
+    "id": 3,
+    "name": "Material 3",
+    "quantity": "30 meters",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },{
+    "id": 4,
+    "name": "Material 3",
+    "quantity": "30 meters",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  }
+]

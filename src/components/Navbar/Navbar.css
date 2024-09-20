@@ -1,0 +1,122 @@
+/* Navbar Styling */
+.navbar {
+  background: rgba(0, 0, 0, 0.3); /* Glassmorphism effect */
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.logo-link {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-link:hover {
+  transform: scale(1.1);
+}
+
+/* Regular Menu Links (Desktop) */
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 165, 0, 0.5);
+  transform: translateY(-3px);
+}
+
+/* Cart and Hamburger Icons */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cart-icon, .menu-icon {
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.cart-icon:hover, .menu-icon:hover {
+  color: rgba(255, 165, 0, 0.8);
+  transform: scale(1.2);
+}
+
+/* Hide Hamburger Icon on Desktop */
+.menu-icon-container {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Show Hamburger Menu Only on Mobile/Tablet */
+  .menu-icon-container {
+    display: block;
+  }
+
+  /* Hide Regular Links on Mobile */
+  .nav-links {
+    display: none;
+  }
+
+  /* Mobile Menu Links (hidden by default) */
+  .mobile-nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Background for mobile menu */
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    z-index: 9;
+  }
+
+  /* Display Mobile Menu When Open */
+  .mobile-nav-links.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 769px) {
+  /* On Desktop, show links as flex */
+  .navbar {
+    padding: 10px 40px;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .mobile-nav-links {
+    display: none;
+  }
+}

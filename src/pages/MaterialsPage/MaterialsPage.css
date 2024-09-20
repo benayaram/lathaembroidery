@@ -1,0 +1,92 @@
+.materials-page {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.page-title {
+  font-size: 32px;
+  color: royalblue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.material-card {
+  background: rgba(37, 134, 208, 0.7); /* Enhanced glassmorphism effect */
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.material-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.material-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.material-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.material-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.material-button {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.material-button:hover {
+  background-color: rgba(0, 0, 255, 0.8);
+}
+
+.view-cart-btn {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color 0.3s;
+}
+
+.view-cart-btn:hover {
+  background-color: rgba(0, 0, 255, 0.8);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .materials-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+
+  .view-cart-btn {
+    right: 10px;
+    bottom: 10px;
+  }
+}

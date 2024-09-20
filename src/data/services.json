@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "category": "Mirror Work",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 2,
+    "category": "Blouse Designs",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 3,
+    "category": "Lehenga Designs",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 4,
+    "category": "Saree Embroidery",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 5,
+    "category": "Kurtis Embroidery",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 6,
+    "category": "Dupatta Work",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 7,
+    "category": "Custom Design",
+    "image": "https://images.pexels.com/photos/2564604/pexels-photo-2564604.jpeg?auto=compress&cs=tinysrgb&w=600"
+  }
+]
