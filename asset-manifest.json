@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lathaembroidery/static/css/main.4c41f6c0.css",
-    "main.js": "/lathaembroidery/static/js/main.ccaaaa73.js",
+    "main.js": "/lathaembroidery/static/js/main.5739213f.js",
     "static/js/453.2cd041db.chunk.js": "/lathaembroidery/static/js/453.2cd041db.chunk.js",
     "index.html": "/lathaembroidery/index.html",
     "main.4c41f6c0.css.map": "/lathaembroidery/static/css/main.4c41f6c0.css.map",
-    "main.ccaaaa73.js.map": "/lathaembroidery/static/js/main.ccaaaa73.js.map",
+    "main.5739213f.js.map": "/lathaembroidery/static/js/main.5739213f.js.map",
     "453.2cd041db.chunk.js.map": "/lathaembroidery/static/js/453.2cd041db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c41f6c0.css",
-    "static/js/main.ccaaaa73.js"
+    "static/js/main.5739213f.js"
   ]
 }
